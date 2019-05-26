@@ -1,0 +1,24 @@
+{
+  "name": "antd-x",
+  "version": "0.0.1",
+  "description": "antd extensions for enterprise components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifiknew/antd-x.git"
+  },
+  "keywords": [
+    "antd",
+    "extension",
+    "exterprise",
+    "component"
+  ],
+  "author": "ifiknew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifiknew/antd-x/issues"
+  },
+  "homepage": "https://github.com/ifiknew/antd-x#readme"
+}
