@@ -1,5 +1,5 @@
 {
-  "name": "antd-x",
+  "name": "@antd-x/core",
   "version": "0.0.1",
   "description": "antd extensions for enterprise components",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ifiknew/antd-x/issues"
   },
-  "homepage": "https://github.com/ifiknew/antd-x#readme"
+  "homepage": "https://github.com/ifiknew/antd-x#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
 }
