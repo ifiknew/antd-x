@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-export interface SelectProps {
+export interface ChipProps {
 }
 
-export default class Select extends React.Component<SelectProps, any> {
+export default class Chip extends React.Component<ChipProps, any> {
   public render() {
     return (
       <div>
