@@ -1,0 +1,33 @@
+---
+menu: Components
+name: Avatar
+---
+
+import Avatar from './index'
+import './style/index.less'
+import { Playground } from 'docz'
+
+# Avatar
+- use to display an user image
+- hover effect
+- selectable
+
+## Basic Usage
+<Playground>
+  <Avatar />
+</Playground>
+
+## Different Sizes
+<Playground>
+  <Avatar size="small" />
+  <Avatar />
+  <Avatar size="large" />
+  <Avatar size={10} />
+</Playground>
+
+## Hover Effect
+<Playground>
+  <Avatar hover={{ type: 'close' }} />
+  <Avatar hover={{ type: 'check' }} />
+  <Avatar hover={{ type: 'info' }} />
+</Playground>

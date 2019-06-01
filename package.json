@@ -3,12 +3,13 @@
   "private": true,
   "scripts": {
     "dev": "docz dev",
-    
-    "build:docs": "DOCZ_BASE='/frontend-stories/' docz build"
+    "build:docs": "DOCZ_BASE='/antd-x/' docz build"
   },
   "devDependencies": {
+    "babel-plugin-import": "^1.11.2",
     "copy-webpack-plugin": "^5.0.3",
     "docz": "1.2.0",
+    "docz-plugin-css": "^0.11.0",
     "docz-theme-default": "1.2.0",
     "lerna": "^3.10.7"
   }
